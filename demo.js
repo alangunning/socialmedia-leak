@@ -135,6 +135,10 @@ var leakSocialMediaAccounts = function(callback) {
         domain: "https://vk.com",
         redirect: "/login?u=2&to=ZmF2aWNvbi5pY28-",
         name: "VK"
+    },{
+     domain: "https://www.netflix.com",
+     redirect: "https://www.netflix.com/Login?nextpage=https%3A%2F%2Fwww.netflix.com%favicon.ico",
+     name: "Netflix"
     }];
 
     platforms.forEach(function(network) {
@@ -181,10 +185,6 @@ var leakSocialMediaAccounts = function(callback) {
 //     domain: "https://stackoverflow.com",
 //     redirect: "/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2ffavicon.ico",
 //     name: "Stack Overflow"
-// },{
-//     domain: "https://www.netflix.com",
-//     redirect: "/Login?nextpage=%2Ffavicon.ico",
-//     name: "Netflix"
 // },{
 //      domain: "https://www.flickr.com",
 //      redirect: "/signin/yahoo/?redir=https%3A%2F%2Fwww.flickr.com/favicon.ico",
