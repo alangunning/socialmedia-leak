@@ -137,7 +137,7 @@ var leakSocialMediaAccounts = function(callback) {
         name: "VK"
     },{
      domain: "https://www.netflix.com",
-     redirect: "https://www.netflix.com/Login?nextpage=https%3A%2F%2Fwww.netflix.com%favicon.ico",
+     redirect: "/Login?nextpage=https%3A%2F%2Fwww.netflix.com%favicon.ico",
      name: "Netflix"
     }];
 
